@@ -100,7 +100,7 @@ output = Text(window, width=75, height=6, wrap=WORD, background="white")
 output.grid(row=5, column=0, padx=10, pady=10, sticky=W)
 
 # Add exit button
-Button(window, text="Exit", width=14, command=close_window) .grid(row=7, column=0, sticky=N)
+Button(window, text="Exit", width=14, command=close_window) .grid(row=7, column=0, pady=10, sticky=N)
 
 # run the main loop
 window.mainloop()
